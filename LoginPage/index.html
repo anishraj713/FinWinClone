@@ -30,6 +30,15 @@
     />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Login to Placement</title>
   </head>
@@ -39,5 +48,21 @@
         <img src="logo.png" alt="logo" />
       </nav>
     </header>
+    <div class="container">
+      <h1>Login to Placement</h1>
+      <div class="form-container">
+        <form>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+          <label for="password">password</label>
+          <input type="password" name="password" id="password" />
+          <button>Login</button>
+        </form>
+        <p><a href="#">Forgot your password?</a></p>
+      </div>
+      <div class="signup">
+        <p>Don't have an account yet? <a href="#">Sign up here</a></p>
+      </div>
+    </div>
   </body>
 </html>
