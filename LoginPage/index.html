@@ -39,6 +39,14 @@
       href="https://fonts.googleapis.com/css?family=Inter"
       rel="stylesheet"
     />
+    <!-- font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Login to Placement</title>
   </head>
@@ -53,15 +61,17 @@
       <div class="form-container">
         <form>
           <label for="email">Email</label>
-          <input type="email" name="email" id="email" />
+          <i class="fa-solid fa-envelope"></i>
+          <input  type="email" name="email" id="email"  placeholder="you@gmail.com"/>
           <label for="password">password</label>
-          <input type="password" name="password" id="password" />
+          <i class="fa-solid fa-key"></i>
+          <input type="password" name="password" id="password" placeholder="Enter your password..." />
           <button>Login</button>
         </form>
-        <p><a href="#">Forgot your password?</a></p>
+        <a href="#">Forgot your password?</a>
       </div>
       <div class="signup">
-        <p>Don't have an account yet? <a href="#">Sign up here</a></p>
+        <p>Don't have an account yet? <a href="#" >Sign up here</a></p>
       </div>
     </div>
   </body>

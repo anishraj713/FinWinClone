@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: poppins;
+  text-decoration: none;
 }
 html,
 body {
@@ -27,9 +28,12 @@ img {
   height: 30px;
   margin: 15px;
 }
-.container{
+.container {
   margin-top: 50px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 h1 {
   font-family: poppins, Georgia, Times New Roman, Times, serif;
@@ -40,12 +44,29 @@ h1 {
   line-height: 53.3px;
 }
 
-.form-container{
-  margin-top: 50px;
+.form-container {
+  margin-top: 30px;
   background-color: white;
-  text-align: center;
-  height: 400px;
-  width: 300px;
+  /* text-align: center; */
+  height: 300px;
+  width: 400px;
   padding: 20px;
-  box-shadow: 0 1px 1px rgba(24,32,38,.1), 0 2px 6px rgba(24,32,38,.05);
+  border-radius: 8px;
+  box-shadow: 0 1px 1px rgba(24, 32, 38, 0.1), 0 2px 6px rgba(24, 32, 38, 0.05);
+}
+.form-container a {
+  color: #7088ee;
+}
+.form-container a:hover {
+  color: #000;
+}
+.signup {
+  margin-top: 120px;
+  font-family: inter;
+}
+.signup a {
+  color: #7088ee;
+}
+.signup a:hover {
+  color: #000;
 }
